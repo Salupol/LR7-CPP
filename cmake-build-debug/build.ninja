@@ -55,6 +55,12 @@ build CMakeFiles/LR7.dir/main.cpp.o: CXX_COMPILER__LR7_unscanned_Debug /home/pt/
   OBJECT_DIR = CMakeFiles/LR7.dir
   OBJECT_FILE_DIR = CMakeFiles/LR7.dir
 
+build CMakeFiles/LR7.dir/huy.cpp.o: CXX_COMPILER__LR7_unscanned_Debug /home/pt/CLionProjects/LR7/huy.cpp || cmake_object_order_depends_target_LR7
+  DEP_FILE = CMakeFiles/LR7.dir/huy.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/LR7.dir
+  OBJECT_FILE_DIR = CMakeFiles/LR7.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target LR7
@@ -63,7 +69,7 @@ build CMakeFiles/LR7.dir/main.cpp.o: CXX_COMPILER__LR7_unscanned_Debug /home/pt/
 #############################################
 # Link the executable LR7
 
-build LR7: CXX_EXECUTABLE_LINKER__LR7_Debug CMakeFiles/LR7.dir/main.cpp.o
+build LR7: CXX_EXECUTABLE_LINKER__LR7_Debug CMakeFiles/LR7.dir/main.cpp.o CMakeFiles/LR7.dir/huy.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/LR7.dir
   POST_BUILD = :
